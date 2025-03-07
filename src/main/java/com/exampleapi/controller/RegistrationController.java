@@ -46,7 +46,7 @@ public class RegistrationController {
             @RequestBody Registration registration
 
     ) {
-        registrationService.updateRegistration(id, registration);
+      //registrationService.updateRegistration(id, registration);
         return "Updated";
     }
 
